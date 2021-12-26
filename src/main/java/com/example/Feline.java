@@ -5,16 +5,16 @@ import java.util.List;
 public class Feline extends Animal implements Predator {
 
     @Override
-    public List<String> eatMeat() throws Exception {
+    public List<String> eatMeat() throws Exception { //вызов метода
         return getFood("Хищник");
     }
 
     @Override
-    public String getFamily() {
+    public String getFamily() { //вызов метода
         return "Кошачьи";
     }
 
-    public int getKittens() {
+    public int getKittens() { //вызов параметризованный
         return getKittens(1);
     }
 
