@@ -31,6 +31,6 @@ public class Lion {
     }
 
     public List<String> getFood() throws Exception {
-        return feline.eatMeat(); // Кейс с моком Хищник
+        return feline.eatMeat();
     }
 }

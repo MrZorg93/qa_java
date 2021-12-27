@@ -1,3 +1,5 @@
+package com.example;
+
 import com.example.Feline;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +19,7 @@ public class TestFelineGetKittens {
         this.expected = expected;
     }
 
-    @Parameterized.Parameters // добавили аннотацию
+    @Parameterized.Parameters
     public static Object[][] getKittensCount() {
         return new Object[][] {
                 { 1, 1},
