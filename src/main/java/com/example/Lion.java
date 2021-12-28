@@ -13,17 +13,17 @@ public class Lion {
     }
 
     public Lion(String sex) throws Exception {
-        if ("Самец".equals(sex)) { //Кейс на самец
+        if ("Самец".equals(sex)) {
             hasMane = true;
-        } else if ("Самка".equals(sex)) { //Кейс на самка
+        } else if ("Самка".equals(sex)) {
             hasMane = false;
         } else {
-            throw new Exception("Используйте допустимые значения пола животного - самец или самка"); //Кейс на что-то левое
+            throw new Exception("Используйте допустимые значения пола животного - самец или самка");
         }
     }
 
     public int getKittens() {
-        return feline.getKittens(); //Кейс на вызов метода без входящего числа
+        return feline.getKittens();
     }
 
     public boolean doesHaveMane() { //Кейс на вызов метода с моком Самец + Кейс на вызов с моком Самка
