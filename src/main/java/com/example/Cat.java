@@ -10,11 +10,11 @@ public class Cat {
         this.predator = feline;
     }
 
-    public String getSound() { //Кейс на вызов метода
+    public String getSound() {
         return "Мяу";
     }
 
-    public List<String> getFood() throws Exception { //Кейс хз какой
+    public List<String> getFood() throws Exception {
         return predator.eatMeat();
     }
 
