@@ -1,9 +1,5 @@
 package com.example;
-
-import com.example.Lion;
-import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.ExpectedException;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
